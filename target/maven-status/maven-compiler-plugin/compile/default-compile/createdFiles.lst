@@ -1,0 +1,14 @@
+com\example\BookStore\model\BookDetails.class
+com\example\BookStore\controller\AdminController.class
+com\example\BookStore\service\AdminService.class
+com\example\BookStore\service\SignupService.class
+com\example\BookStore\dao\AdminRepo.class
+com\example\BookStore\controller\LoginController.class
+com\example\BookStore\DemoApplication.class
+com\example\BookStore\controller\CustomerController.class
+com\example\BookStore\service\BookService.class
+com\example\BookStore\dao\LoginRepo.class
+com\example\BookStore\model\LoginModel.class
+com\example\BookStore\service\LoginService.class
+com\example\BookStore\model\CustomerDetails.class
+com\example\BookStore\dao\BookRepo.class

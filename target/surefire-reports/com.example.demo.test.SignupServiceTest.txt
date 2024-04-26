@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.test.SignupServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.248 s <<< FAILURE! -- in com.example.demo.test.SignupServiceTest
+com.example.demo.test.SignupServiceTest.testCreateUser_Failure -- Time elapsed: 0.197 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.example.BookStore.model.SignUpModel.setUserName(String)" because "this.user" is null
+	at com.example.BookStore.service.SignupService.createUser(SignupService.java:18)
+	at com.example.demo.test.SignupServiceTest.testCreateUser_Failure(SignupServiceTest.java:142)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.example.demo.test.SignupServiceTest.testCreateUser_Success -- Time elapsed: 0.009 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.example.BookStore.model.SignUpModel.setUserName(String)" because "this.user" is null
+	at com.example.BookStore.service.SignupService.createUser(SignupService.java:18)
+	at com.example.demo.test.SignupServiceTest.testCreateUser_Success(SignupServiceTest.java:128)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
